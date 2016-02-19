@@ -137,12 +137,13 @@ PRODUCT_PACKAGES += \
 # OMX
 PRODUCT_PACKAGES += \
     libOmxVdec \
-    libOmxVenc \
     libOmxAacEnc \
     libOmxAmrEnc \
     libOmxEvrcEnc \
     libOmxQcelp13Enc \
     libstagefrighthw
+
+# DIAF:     libOmxVenc \
 
 # Power
 PRODUCT_PACKAGES += \
